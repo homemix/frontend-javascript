@@ -1,8 +1,8 @@
 
 // Create and export constants for each subject
-export const cpp = new Subjects.Cpp();
-export const java = new Subjects.Java();
-export const react = new Subjects.React();
+const cpp = new Subjects.Cpp();
+const java = new Subjects.Java();
+const react = new Subjects.React();
 
 // Create and export one Teacher object
 export const cTeacher: Subjects.Teacher = {
