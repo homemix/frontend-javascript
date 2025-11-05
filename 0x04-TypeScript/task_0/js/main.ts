@@ -20,7 +20,7 @@ const student2:Student={
 };
 
 
-const studentList: Student[] =[student1,student2];
+const studentsList: Student[] =[student1,student2];
 
 function renderStudentsTable(list: Student[], container: HTMLElement): void {
     // Create table and header
@@ -70,5 +70,5 @@ function renderStudentsTable(list: Student[], container: HTMLElement): void {
 document.addEventListener('DOMContentLoaded', () => {
     // If your HTML has a container with id="root" we'll use it; otherwise append to body
     const root = document.getElementById('root') ?? document.body;
-    renderStudentsTable(studentList, root);
+    renderStudentsTable(studentsList, root);
 });
